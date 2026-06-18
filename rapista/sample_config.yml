@@ -1,0 +1,16 @@
+output: "output/sample.docx"
+sections:
+  - module: cover
+    title: "My Document"
+    subtitle: "Generated with python-docx"
+  - module: toc
+    title: "Table of Contents"
+  - module: body
+    title: "Introduction"
+    content: "This is the first paragraph of the document.\n\nAnd this is the second paragraph."
+  - module: body
+    title: "Conclusion"
+    content: "This document was built using composable skill modules."
+  - module: headers_footers
+    header_text: "Confidential"
+    footer_text: "Page "
